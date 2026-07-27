@@ -1,7 +1,25 @@
 aid: infarm
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/infarm.png
 name: infarm
-description: infarm is a company surfaced as a portfolio company of balderton-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: infarm (Indoor Urban Farming GmbH) is a Berlin-based vertical/indoor
+  farming company, surfaced as a portfolio company of balderton-capital and added
+  to the API Evangelist network. The company builds modular, cloud-connected growing
+  systems for herbs, leafy greens, and produce placed in grocery stores and
+  distribution hubs. This profile was enriched by the pipeline; infarm publishes no
+  public developer API, OpenAPI, SDK, or documentation surface, and its website is
+  bot-blocked (HTTP 403) to automated access, so only domain-level security posture
+  could be probed. It remains a company/identity record rather than an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/infarm/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Vertical Farming
+- Agriculture
+- AgTech
+- Food
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/infarm-domain-security.yml
 - type: Website
   url: https://infarm.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
