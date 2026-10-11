@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "infarm",
+    "captured_at": "2026-10-11T190606",
+    "source_url": "https://infarm.com/",
+    "source_type": "Website",
+    "file": "infarm-2026-10-11T190606.png",
+    "bytes": 49019,
+    "capture": "playwright-local"
+  }
+]
